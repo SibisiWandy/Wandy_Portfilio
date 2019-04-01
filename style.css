@@ -1,0 +1,40 @@
+html,
+body,
+header,
+.view{
+  height: 100%;
+}
+#intro {
+  background-image: url("https://media1.giphy.com/media/2lx83o4ZJIxYA/giphy.gif?cid=790b76115c9df8b34544544567aa15cb");
+  background-size: cover;
+  -webkit-background-size: cover;
+  filter: brightness(80%);
+}
+.mask {
+  padding-top: 300px;
+}
+
+button i{
+  color: white;
+  font-size: 60px;
+}
+button {
+  background-color: rgba(0, 0, 0, 0.00001);
+  border: none;
+}
+
+nav {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+input {
+  border:0;
+  border-bottom: 5px solid plum;
+  display:block;
+  width: 50%;
+  padding-bottom: 25px;
+}
+#contact button{
+  border-style: outset;
+  color: blue;
+}
