@@ -5,10 +5,10 @@ header,
   height: 100%;
 }
 #intro {
-  background-image: url("https://stmed.net/sites/default/files/fantasy-sunset-wallpapers-28161-1402279.jpg");
+  background-image: url("https://farm4.staticflickr.com/3836/14171298650_163e963306_b.jpg");
   background-size: cover;
   -webkit-background-size: cover;
-  filter: brightness(80%);
+  filter: brightness(70%);
 }
 .mask {
   padding-top: 300px;
@@ -36,13 +36,39 @@ input {
 }
 #contact button{
   border-style: outset;
-  color: blue;
 }
 .display-4{
   text-decoration: underline;
   text-align: center;
-  text-shadow: 2px 2px #7698B3;
+  text-shadow: 2px 2px #932F6D;
+  font-family: fantasy;
 }
 footer{
   text-align: center;
+  font-variant: small-caps;
+  background-color: #000000;
+  color: #FFFFFF;
+}
+#Services{
+  background-color: #B47EB3;
+}
+h2{
+  text-align: center;
+  text-decoration: underline;
+  font-style: italic;
+}
+h4{
+  color: #420039;
+}
+#Contact{
+  background-color: #E1DEE3;
+}
+#Projects{
+  background-color: #CFC0BD;
+}
+*:hover{
+  color:#3C153B;
+}
+a:hover{
+  color: #D33F49;
 }
